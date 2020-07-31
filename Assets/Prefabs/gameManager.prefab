@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2848219815354638745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2848219815354638747}
+  - component: {fileID: 2848219815354638746}
+  - component: {fileID: 2848219815354638740}
+  m_Layer: 0
+  m_Name: gameManager
+  m_TagString: gm
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2848219815354638747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848219815354638745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22113389, y: 0.3673852, z: -12.599609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2848219815354638746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848219815354638745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda0f4dbf41c9c547931f3da3d008772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows: 5
+  cols: 8
+  tileSize: 2.05
+  referencetile: {fileID: 3969210218822312345, guid: f19ae990b1a5aa5469a186bcf87b1725,
+    type: 3}
+  spawntile: {fileID: 3169801947422414151, guid: 57d60c2ec8b6a77438c1161f6f17d3dc,
+    type: 3}
+--- !u!114 &2848219815354638740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848219815354638745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131ca000118af214c90fc561990b0626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIcurrency: {fileID: 0}
+  currency: 10
